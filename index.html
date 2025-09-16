@@ -1,11 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Answer Engine Information</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Resource Center</title>
+  <meta name="description" content="An answer engine and resource hub for all things AI-related." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <h1>Hello from AnswerEngineInformation.com!</h1>
-  <p>This site is live on GitHub Pages 🚀</p>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="logo">🤖 AI Resource Center</div>
+
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#articles">Articles</a></li>
+        <li><a href="#tools">AI Tools</a></li>
+        <li><a href="#tutorials">Tutorials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="search-bar">
+      <input id="searchInput" type="text" placeholder="Search AI topics..." />
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <button class="menu-toggle">☰</button>
+  </header>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Explore the World of Artificial Intelligence</h1>
+      <p>Answers, tools, and tutorials to guide your AI journey.</p>
+      <a href="#articles" class="btn">Get Started</a>
+    </div>
+  </section>
+
+  <!-- MAIN -->
+  <main>
+
+    <!-- Articles -->
+    <section id="articles" class="content-section">
+      <h2>Featured Articles</h2>
+      <div class="grid" id="articleGrid">
+        <article data-title="What is Machine Learning?">
+          <h3>What is Machine Learning?</h3>
+          <p>Understand the basics of ML, how it works, and where it’s used today.</p>
+          <a href="Article1.html">Read More</a>
+        </article>
+        <article data-title="Intro to Large Language Models">
+          <h3>Intro to Large Language Models</h3>
+          <p>Learn how LLMs like GPT-4 work and why they’re revolutionizing AI.</p>
+          <a href="Article2.html">Read More</a>
+        </article>
+        <article data-title="AI Ethics and Safety">
+          <h3>AI Ethics & Safety</h3>
+          <p>Explore the challenges of ensuring AI is safe and beneficial.</p>
+          <a href="#">Read More</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Tools -->
+    <section id="tools" class="content-section">
+      <h2>Popular AI Tools</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>ChatGPT</h3>
+          <p>Conversational AI for text generation, writing, and more.</p>
+        </div>
+        <div class="card">
+          <h3>Midjourney</h3>
+          <p>AI-powered image generation and creative design tool.</p>
+        </div>
+        <div class="card">
+          <h3>TensorFlow</h3>
+          <p>An open-source platform for machine learning development.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tutorials -->
+    <section id="tutorials" class="content-section">
+      <h2>Learning Resources</h2>
+      <ul class="list-links">
+        <li><a href="#">Beginner’s Guide to Neural Networks</a></li>
+        <li><a href="#">Building Your First AI Model</a></li>
+        <li><a href="#">Prompt Engineering 101</a></li>
+        <li><a href="#">AI Career Roadmap</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer id="contact">
+    <div class="footer-content">
+      <p>&copy; 2025 AI Resource Center. All rights reserved.</p>
+      <p>Contact: <a href="mailto:info@airesourcecenter.com">info@airesourcecenter.com</a></p>
+      <div class="social-links">
+        <a href="#">Twitter</a> | 
+        <a href="#">LinkedIn</a> |
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
